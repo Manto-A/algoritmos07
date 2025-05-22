@@ -3,23 +3,23 @@ Algoritmo "semnome"
 // Professor   : Mateus de paula pereira 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 20/05/2025
+// Data atual  : 21/05/2025
 Var
 // Seção de Declarações das variáveis 
-numero: real
-dobro: real
-tercaparte: real
+reais, dolares: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
-escreva ("Digite um numero: ")
-leia (numero)
+escreva ("Digite quanto dinheiro voce tem na carteira em R$: ")
+leia (reais)
 
-dobro <- numero * 2
-tercaparte <- numero / 3
+dolares <- reais / 3.45
 
-escreval ("O dobro de ",numero, " é", dobro:0:2)
-escreval ("A tercaparte de ",numero, " é", tercaparte:0:5)
+escreva ("Voce pode comprar US$" ,dolares)
+
+
+
+
 
 Fimalgoritmo

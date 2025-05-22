@@ -3,23 +3,28 @@ Algoritmo "semnome"
 // Professor   : Mateus de paula pereira 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 20/05/2025
+// Data atual  : 21/05/2025
 Var
 // Seção de Declarações das variáveis 
-numero: real
-dobro: real
-tercaparte: real
+idade: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite sua idade: ")
+leia (idade)
 
-escreva ("Digite um numero: ")
-leia (numero)
+se (idade >= 18) e (idade <= 70) entao
+escreva ("Voto Obrigatorio")
 
-dobro <- numero * 2
-tercaparte <- numero / 3
+senao
+ se ((idade = 16) ou (idade = 17)) ou (idade > 70) entao
+escreva ("Voto Facultativo")
 
-escreval ("O dobro de ",numero, " é", dobro:0:2)
-escreval ("A tercaparte de ",numero, " é", tercaparte:0:5)
+senao
+escreva ("Proibido Votar")
+
+fimse
+fimse
+
 
 Fimalgoritmo

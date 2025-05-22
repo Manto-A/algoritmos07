@@ -7,8 +7,7 @@ Algoritmo "semnome"
 Var
 // Seção de Declarações das variáveis 
 numero: real
-dobro: real
-tercaparte: real
+resultado1,resultado2: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
@@ -16,10 +15,12 @@ Inicio
 escreva ("Digite um numero: ")
 leia (numero)
 
-dobro <- numero * 2
-tercaparte <- numero / 3
+resultado1 <- numero -1
 
-escreval ("O dobro de ",numero, " é", dobro:0:2)
-escreval ("A tercaparte de ",numero, " é", tercaparte:0:5)
+resultado2 <- numero +1
+
+escreva ("O antecessor é = ", resultado1, " o sucessor é = ", resultado2)
+
+
 
 Fimalgoritmo

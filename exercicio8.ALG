@@ -6,20 +6,13 @@ Algoritmo "semnome"
 // Data atual  : 20/05/2025
 Var
 // Seção de Declarações das variáveis 
-numero: real
-dobro: real
-tercaparte: real
+metros: real
+km, hm, dam, dm, cm, mm: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreva ("Digite uma distância em metros: ")
+Leia (metros)
 
-escreva ("Digite um numero: ")
-leia (numero)
-
-dobro <- numero * 2
-tercaparte <- numero / 3
-
-escreval ("O dobro de ",numero, " é", dobro:0:2)
-escreval ("A tercaparte de ",numero, " é", tercaparte:0:5)
 
 Fimalgoritmo
